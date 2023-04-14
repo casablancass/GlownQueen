@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins';
+    color:#264065;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 1600px;
+    background: url(/assets/img/woman.png);
+    background-size: 1300px;
+    background-repeat: no-repeat;
+    background-position: 400px 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+header .leftside-header {
+    display: flex;
+    width: 100%;
+    max-width: 940px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .leftside-header .logo {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+header .leftside-header .logo span {
+    color: #A9D6CB;
+}
+
+header .leftside-header .nav-header {
+    display: flex;
+    gap: 56px;
+}
+
+header .leftside-header .nav-header a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: #264065;
+}
+
+header .leftside-header .nav-header .arrow-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+header .rightside-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 416px;
+    justify-content: space-between;
+}
+
+header .rightside-header .icons-navegation {
+    display: flex;
+    gap: 32px;
+}
+
+header .rightside-header .buttons-header {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+header .rightside-header .buttons-header .sign-in {
+    text-decoration: none;
+    text-decoration-line: underline;
+    color: #264065;
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+header .rightside-header .buttons-header .sign-up {
+    background-color: #264065;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    padding: 16px 40px;
+    border-radius: 32px;
+}
+
+.background {
+    width: 100%;
+    height: calc(100vh - 280px);
+    background: url(/assets/img/background.png)
+}
+
+.title-subtitle-wrapper {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.title-subtitle-wrapper h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    width: 100%;
+    max-width: 810px;
+}
+
+.title-subtitle-wrapper h3 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #909090;
+    width: 100%;
+    max-width: 760px;
+}
+
+.wrapper-back-watch-video{
+    margin-top: 56px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.wrapper-back-watch-video .button {
+    text-decoration: none;
+    color: white;
+    padding: 16px 46px;
+    background-color: #264065;
+    border-radius: 32px;
+}
+
+.wrapper-back-watch-video .video {
+    display: flex;
+    text-decoration: none;
+    color: #264065;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.card-wrapper {
+    margin-top: 60px;
+    display: flex;
+    gap: 72px;
+    width: 100%;
+    max-width: 643px;
+    padding: 32px;
+    border-radius: 16px;
+    background-color: white;
+}
+
+.card-wrapper .column-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-wrapper .column-card h3 {
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.card-wrapper .column-card h6 {
+    margin-top: 16px;
+    color:#909090 ;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    width: 100%;
+    max-width: 145px;
+}
